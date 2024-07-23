@@ -12,7 +12,7 @@ import jakarta.inject.Named;
 //@SessionScoped // Bir kullanıcı için yaşar ancak logout
 //@Dependent // bukalemon
 //@ConversationScoped // belli yapılarda belli istekler boyunca yaşar
-@SessionScoped // Bean 1 instance olmasını sağlamak için
+//@SessionScoped // Bean 1 instance olmasını sağlamak için
 public class _00_Scoped {
 
 }
