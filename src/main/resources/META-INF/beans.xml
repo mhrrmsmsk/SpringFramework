@@ -2,9 +2,15 @@
 <beans xmlns="https://jakarta.ee/xml/ns/jakartaee"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/beans_4_0.xsd">
-<alternatives>
-    <!-- <class>com.mhrrmsmsk.alternative.Patron1</class> -->
+    <!-- alternatives -->
+    <alternatives>
+         <class>com.mhrrmsmsk.alternative.Patron1</class>
+        <!-- <class>com.mhrrmsmsk.alternative.Patron2</class> -->
+    </alternatives>
 
-</alternatives>
+    <!-- interceptor -->
+    <interceptors>
+        <class>com.mhrrmsmsk.aop.interceptor.InterceptorPreventRoadExactWork</class>
+    </interceptors>
 </beans>
 
