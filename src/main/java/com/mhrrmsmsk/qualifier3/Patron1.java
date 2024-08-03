@@ -1,14 +1,12 @@
-package com.mhrrmsmsk.qualifier;
+package com.mhrrmsmsk.qualifier3;
 
-import com.mhrrmsmsk.alternative.PatronInterface;
+import com.mhrrmsmsk.qualifier3.PatronInterface;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.inject.Alternative;
 import jakarta.enterprise.inject.Default;
-import jakarta.inject.Named;
 
 @Default
 @ApplicationScoped
-public class Patron1 implements PatronInterface {
+public class Patron1 implements PatronInterface{
     @Override
     public String surum(String data) {
         return "Default "+data;

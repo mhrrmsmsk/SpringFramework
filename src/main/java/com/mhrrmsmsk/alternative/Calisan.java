@@ -1,15 +1,13 @@
-package com.mhrrmsmsk.qualifier;
+package com.mhrrmsmsk.alternative;
 
-import com.mhrrmsmsk.alternative.PatronInterface;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 
-@Named(value="qualifierCdi")
+@Named(value="alternativedi")
 @ApplicationScoped
 public class Calisan {
 @Inject
-//@QualifierMultiple
     private PatronInterface patronInterface;
 public String getData(String data){
     return patronInterface.surum(data);

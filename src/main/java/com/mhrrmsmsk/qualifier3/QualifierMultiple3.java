@@ -1,6 +1,5 @@
-package com.mhrrmsmsk.qualifier;
+package com.mhrrmsmsk.qualifier3;
 
-import jakarta.enterprise.inject.Default;
 import jakarta.inject.Qualifier;
 
 import java.lang.annotation.Documented;
@@ -11,8 +10,11 @@ import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 @Qualifier
-@Retention(RUNTIME)
 @Target({FIELD, TYPE, METHOD})
+@Retention(RUNTIME)
 @Documented
-public @interface QualifierMultiple {
+public @interface QualifierMultiple3 {
+    // enum yapısı
+    EMoreOptions value();
+
 }
