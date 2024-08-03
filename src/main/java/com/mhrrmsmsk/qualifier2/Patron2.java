@@ -1,9 +1,7 @@
-package com.mhrrmsmsk.qualifier;
+package com.mhrrmsmsk.qualifier2;
 
 import com.mhrrmsmsk.alternative.PatronInterface;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.inject.Alternative;
-import jakarta.inject.Named;
 
 //@QualifierMultiple
 @QualifierMultiple
