@@ -12,5 +12,9 @@
     <interceptors>
         <class>com.mhrrmsmsk.aop.interceptor.InterceptorPreventRoadExactWork</class>
     </interceptors>
+    <!-- decorators -->
+    <decorators>
+        <class>com.mhrrmsmsk.aop.decorator.EvDecorator</class>
+    </decorators>
 </beans>
 
